@@ -1,4 +1,4 @@
-<h1>Pizzeria La Sicilia  ![favicon](https://images84.fotosik.pl/903/967be7e0d9ddbbfc.png)</h1>
+<h1>#Pizzeria La Sicilia  ![favicon](https://images84.fotosik.pl/903/967be7e0d9ddbbfc.png)</h1>
 <p>Strona zrealizowana na zlecenie jednej z gdańskich pizzerii.<br>
 Projekt przygotowałem zaczynając od stworzenia projektu graficznego - LINK.<br>
 Jako CMS wykorzystałem Keystone.js, moja konfiguracja - LINK.<br>
