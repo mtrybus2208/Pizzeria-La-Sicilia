@@ -1,7 +1,7 @@
 # Pizzeria La Sicilia  ![favicon](https://images84.fotosik.pl/903/967be7e0d9ddbbfc.png)
 <p>Strona zrealizowana na zlecenie jednej z gdańskich pizzerii.<br>
 Projekt przygotowałem zaczynając od stworzenia projektu graficznego - <a href="https://www.behance.net/gallery/58871905/Pizzeria" target="_blank">Behance</a><br>
-Jako CMS wykorzystałem Keystone.js, moja konfiguracja - LINK.<br>
+Jako CMS wykorzystałem Keystone.js - <a href="https://github.com/mtrybus2208/keystone-boilerplate-webpack-bootstrap4" target="_blank">link do mojej konfiguracji.</a><br>
 Produkty, oraz ich kategorie są w pełni edytowalne z poziomu admina.</p>
 
 <p>Wykorzystane technologie:<br>
