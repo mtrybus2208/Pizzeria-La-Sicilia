@@ -5,9 +5,9 @@ Jako CMS wykorzystałem Keystone.js, moja konfiguracja - LINK.<br>
 Produkty, oraz ich kategorie są w pełni edytowalne z poziomu admina.</p>
 
 <p>Wykorzystane technologie:<br>
-Grafika: Photoshop,<br>
-Back-end: Keystone.js (Node.js, express, mongoose),<br>
-Front-end: JS(ES6), Webpack 2, HTML5, CSS(Sass).</br>
+<strong>Grafika:</strong> Photoshop,<br>
+<strong>Backend:</strong> Keystone.js (Node.js, express, mongoose),<br>
+<strong>Frontend:</strong> JS(ES6), Webpack 2, HTML5, CSS(Sass).</br>
 
 
 <p><strong>Online</strong> (strona niebawem zostanie przeniosiona na inna domene):
