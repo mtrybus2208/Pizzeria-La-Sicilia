@@ -1,0 +1,35 @@
+.about-info{
+  height: 100%;
+  min-height: 500px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.mini-info{
+  font-family: $font-family-secondary;
+}
+.about-box{
+  background: url(../images/menu/menu-bg-single.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+/* MEDIA */
+/* md */
+@media (min-width: 768px) {}
+/* lg */
+@media (min-width: 992px) {}
+/* xl */
+@media (min-width: 1200px) { 
+  .about-info{
+   padding-top: 6rem;
+   padding-bottom: 4rem;
+   min-height: 87vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  }
+  .divide-text{
+   max-width: 600px; 
+  }
+}
+   

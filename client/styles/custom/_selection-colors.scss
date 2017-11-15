@@ -1,0 +1,39 @@
+::selection{
+  background: #FFF498;
+}
+::-moz-selection{
+  background: #FFF498;
+}
+img::selection{
+  background: transparent;
+}
+img::-moz-selection{
+  background: transparent;
+}
+body{
+  -webkit-tap-highlight-color: #FFF498;
+}
+/* SCROLLBAR */
+body::-webkit-scrollbar-trac{
+  background-color: rgba(255, 255, 255, .4);
+}
+body::-webkit-scrollbar{
+  background-color: rgba(255, 255, 255, .4);    
+  height: 5px;
+  width: 8px;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: rgba($black, .3);
+  border-radius: 3px;
+}
+.menu-table-wrapper::-webkit-scrollbar-trac{
+  background-color: rgba(231, 231, 231, 0.4); 
+}
+.menu-table-wrapper::-webkit-scrollbar{
+  background-color: rgba(255, 255, 255, 0.4);    
+  height: 7px; 
+}
+.menu-table-wrapper::-webkit-scrollbar-thumb{
+  background-color: rgba($black, .3);
+  border-radius: 3px;
+}

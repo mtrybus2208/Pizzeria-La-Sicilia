@@ -1,0 +1,14 @@
+.menu-content{
+  padding-top: 1.5rem;
+  padding-bottom: 2.5rem;
+  background: url('/images/menu/menu-bg-single3.jpg');
+  background-position-x: right;
+  background-position-y: 0;
+}
+/* MEDIA */
+/* md */
+@media (min-width: 768px) {  
+  .menu-content{
+    padding-top: 2.5rem;
+  }  
+}

@@ -1,0 +1,13 @@
+@import "./custom/selection-colors";
+@import "./custom/shared.scss";
+/* Components */
+@import "./custom/my-components/navbar";
+@import "./custom/my-components/header";
+@import "./custom/my-components/footer";
+@import "./custom/my-components/product-thumb";
+@import "./custom/my-components/menu-table";
+@import "./custom/my-components/google-map";
+/* Pages */
+@import "./custom/pages/general";
+@import "./custom/pages/home";
+@import "./custom/pages/about";

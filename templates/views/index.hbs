@@ -1,0 +1,130 @@
+{{!< default}}
+<header class="main-header main-header_home loading">
+	<div class="main-header__container">
+		<div class="main-header__logo-box">
+			<img src="images/header-logo.png" alt="La Sicilia">
+			<h1 class="main-header__title main-header__title_medium">La Sicilia</h1>
+		</div>
+			<p class="main-header__information">Nasza pizzeria znajduje się w samym sercu gdańskiej starówki. 
+			La Sicilia to włoska pizzeria, w której poczują Państwo bogactwo smaków
+			w kuchni śródziemnomorskiej i cudowną atmosferę typową dla włoskich trattorii.
+			W menu znajduje się wiele specjałów charakterystycznych dla regionu 
+			a w szczególności dla Sycylii.</p> 
+			<img src="images/arrow-d.svg" alt=">" class="main-header__scroller">
+	</div>
+</header>				
+<main class="home-main">
+	<section class="product-info"> 
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12 col-xl-11">
+					<div class="big-media">
+						<div class="big-media__thumb mr-0 mr-lg-5"></div>
+						<div class="big-media-desc  ml-0 ml-lg-5">
+						<div class="headlines mb-3">
+							<span class="headlines__mini-info">Gwarantujemy</span>
+							<h3 class="headlines__title">Zawsze świeże produkty</h3>
+						</div> <!-- headlines -->
+							<div class="big-media-body">
+								<p>W przyjemnym otoczeniu oferujemy możliwość skonsumowania pysznych, świeżo przygotowanych przez nas posiłków. Wszystkie dania, w tym również sosy przygotowujemy od podstaw sami, a składniki zamawiamy na bieżąco aby były zawsze świeże i dobrej jakości. Spotka Cię tu również miła obsługa oraz przyjazna atmosfera, w której na pewno poczujesz się bardzo dobrze.</p>		
+							</div> <!-- big-media-body -->
+						</div> <!-- big-media__thumb -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="company-advertisement">
+		<div class="container product-info__container">
+			<div class="row">
+				<div class="col-12 col-md-4">
+					<div class="info-tile info-tile_mobile-margin">
+						<div class="info-tile__top">
+							<div class="info-tile-icon">
+								<img src="images/company-advertisement/money.svg" alt="" class="info-tile__img">
+							</div>
+						</div> <!-- info-tile__top -->
+						<div class="info-tile__body">
+							<p class="lead info-tile__lead">WYSYŁKA GRATIS!</p>
+							<p>Korzystaj z naszej usługi dowozu:<br>wysyłka gratis na obszarze całego<br> Starego Miasta!.</p>
+						</div> <!-- info-tile__body -->
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="info-tile info-tile_mobile-margin">
+						<div class="info-tile__top">
+							<div class="info-tile-icon">
+								<img src="images/company-advertisement/food.svg" alt="" class="info-tile__img">
+							</div>
+						</div> <!-- info-tile__top -->
+						<div class="info-tile__body">
+							<p class="lead info-tile__lead">GWARANCJA ŚWIEŻOŚCI</p>
+							<p>Wszystkie dania, przygotowujemy<br>od podstaw sami, a składniki<br>zamawiamy na bieżąco.</p>
+						</div> <!-- info-tile__body -->
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="info-tile">
+						<div class="info-tile__top">
+							<div class="info-tile-icon">
+								<img src="images/company-advertisement/restaurant.svg" alt="" class="info-tile__img">
+							</div>
+						</div> <!-- info-tile__top -->
+						<div class="info-tile__body">
+							<p class="lead info-tile__lead">PYSZNIE I ZDROWO</p>
+							<p>Wyjątkowy charakter kuchni włoskiej<br>to zasługa lokalnych metod produkcji,<br>oraz wyśmienitych surowców.</p>
+						</div> <!-- info-tile__body -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="product-info"> 
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12 col-xl-11">
+					<div class="big-media">
+						<div class="big-media-desc mr-0 mr-lg-5">
+							<div class="headlines mb-3">
+								<span class="headlines__mini-info">Do wyboru</span>
+								<h3 class="headlines__title">Niepowtarzalna oferta</h3>
+							</div> <!-- headlines -->
+							<div class="big-media-body">
+								<p>Zapraszamy do tradycyjnej włoskiej pizzerii, która oferuje szeroki wybór wyśmienitych dań kuchni włoskiej, takich jak: pizza, focaccia, bruschetta, panini, tradycyjne włoskie sałatki oraz wiele więcej. Serwujemy również wina oraz napoje, W naszej restauracji każdy może znaleźć coś dla siebie.</p>		
+							</div> <!-- big-media-body -->
+						</div> <!-- big-media__thumb -->
+						<div class="big-media__thumb big-media__thumb_prods ml-0 ml-lg-5"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="products">
+		<div class="container-fluid	px-0 container-fluid_border">
+			<div class="row no-gutters">
+				{{#each categories}}
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<a href="{{ menuUrl menu_name }}">
+							<div class="product-thumb">
+								<div class="product-thumb__wrap">
+									<div class="product-thumb__body">
+										{{#if image}}<img src="{{{ cloudinaryUrl image }}}" class="card-img-top" alt="">{{/if}}
+									</div>
+									<div class="product-thumb__info">
+										<div class="product-thumb__icon"></div>
+										<span class="product-thumb__name">{{ name }}</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				{{/each}}
+			</div>
+		</div>
+	</section>
+</main>
+{{!-- Footer --}}
+{{>footer-defult}}
+{{!-- Scripts --}}
+<script src="/js/shared.bundle.js"></script>
+<script src="/js/home.bundle.js"></script> 

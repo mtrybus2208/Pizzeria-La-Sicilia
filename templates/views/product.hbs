@@ -1,0 +1,53 @@
+<header class="main-header main-header_small main-header__container_menu loading">
+	<div class="main-header__container main-header__container_small">
+		<div class="main-header__logo-box">
+			<img src="images/header-logo.png" alt="La Sicilia">
+			<h1 class="main-header__title main-header__title_medium">Nasze Menu</h1>
+		</div> <!-- main-header__logo-box -->
+	</div>
+</header>
+<section class="menu-content vanish">
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-10">
+        {{#each data}}
+        {{#if products}} 
+            <div class="headlines headlines_menu" data-target="{{menuName}}">
+              <span class="headlines__mini-info">Pizzeria La Sicilia</span>
+              <h2 class="headlines__title">{{categoryName}}</h2>
+            </div> <!-- headlines -->
+            <div class="menu-table-wrapper">
+              {{#each products}}
+                <div class="product">
+                  <div class="product__thumb-box">
+                    <div class="product__thumb">
+                      {{#if image}} <img src="{{{cloudinaryUrl image}}}" class="product__img"> {{/if}}
+                    </div> <!-- product__thumb -->
+                  </div> <!-- product__thumb-box -->
+                  <div class="product__info">
+                    <div class="product__info-head">
+                      <div class="product__info-item product__info-item_title">
+                        <h3 class="product__title">{{number}}. {{name}}</h3>
+                      </div> <!-- product__info-item -->
+                      <div class="product__info-item product__info-item_price">
+                        <span class="product__price">{{price}} zł</span>
+                      </div> <!-- product__info-item -->
+                    </div> <!-- product__info-head -->
+                    <div class="product__info-body">
+                      <p class="product__description"> {{{desc.brief}}} </p>
+                    </div> <!-- product__info-body -->
+                  </div> <!-- product__info -->
+                </div> <!-- product -->
+              {{/each}}
+            </div> <!-- menu-table-wrapper -->
+          {{/if}}
+        {{/each}}
+      </div> <!-- col-12 --> 
+    </div> <!-- row -->
+  </div> <!-- container -->
+</section>
+{{!-- Footer --}}
+{{>footer-defult}}
+{{!-- Scripts --}}
+<script src="/js/shared.bundle.js"></script>
+<script src="/js/menu.bundle.js"></script> 

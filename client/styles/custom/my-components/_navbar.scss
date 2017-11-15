@@ -1,0 +1,109 @@
+.navbar_bg-dark{
+  background-color:rgba($black,.98); 
+}
+.navbar_logo{
+  width: 35px;
+}
+.navbar_title{
+  font-size: 1.2rem;
+  display: inline-block;
+  color: $white;
+  font-family: $font-family-secondary;
+}
+.navbar_title_social{
+  font-family: inherit;
+  font-size:1rem;
+}
+.navbar-toggler__def{
+  border: none;
+}
+.navbar-toggler__def:active,
+.navbar-toggler__def:focus{
+  border: none;
+  outline: none!important;
+  border: none;
+}
+.nav-item_mobile{
+  text-align: center;
+  min-width: 60px;
+  width: 100%;   
+  border-top: 1px solid rgba(255,255,255,0.08); 
+}
+.nav-item_mobile__link{
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: .75rem 0;
+  color: rgba(255, 255, 255, 0.6);  
+}
+.navbar-nav_mobile{
+  margin: 1rem 0;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+.nav-item_mobile:hover{
+  background-color: rgba($white, .010);
+}
+.nav-item_mobile_active,
+.nav-item_mobile_active:hover{ 
+  background-color: rgba($white, .035);
+}
+.nav-item_mobile_active{
+  color: lighten($gold,25%)!important;
+} 
+.navbar{
+  padding-bottom:0;
+}
+.navbar-collapse{
+  margin-left: -1rem;
+  margin-right: -1rem;
+} 
+/* md */
+@media (min-width: 768px) {}
+/* lg */
+@media (min-width: 992px) {
+  .navbar{
+    padding-bottom: .35rem;
+    padding-top: .35rem;
+  }
+  .navbar-collapse{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .nav-item_mobile{
+    padding: inherit;
+    width: auto;
+    border-top: none;
+  }
+  .navbar-nav_mobile{
+    margin: inherit;
+    margin-right: 0;
+  }
+  .nav-item_mobile_active{
+    background: none;
+    color: lighten($gold, 25%)!important;
+    position: relative;
+  }
+  .nav-item_mobile__link{
+    padding-right: 1.25rem!important;
+    padding-left: 1.25rem!important;
+    position: relative;
+  }
+  .nav-item_mobile_active,
+  .nav-item_mobile_active:hover{   
+    background-color: transparent;
+  }
+  .nav-item_mobile_active::after{
+    position: absolute;
+    content: "";
+    background-color: #86827b;
+    height: 1px;
+    bottom: 9px;
+    left: 10%;
+    right: 10%; 
+  }
+}
+/* xl */
+@media (min-width: 1200px) {}
+ 
