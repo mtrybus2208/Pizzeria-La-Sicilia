@@ -13,6 +13,5 @@
 * <strong>Backend:</strong> Keystone.js (Node.js, express, mongoose)
 * <strong>Frontend:</strong> JS(ES6), Webpack 2, HTML5, CSS(Sass)
 
-Temporary preview: <a href="https://la-sicilia-pizzeria.herokuapp.com/">la-sicilia-pizzeria.herokuapp.com</a>
-<p><strong>Online</strong> (strona niebawem zostanie przeniosiona na inna domene):
+<strong>Temporary preview:</strong> <a href="https://la-sicilia-pizzeria.herokuapp.com/">la-sicilia-pizzeria.herokuapp.com</a>
 <img src="https://images82.fotosik.pl/904/2014279e1f6c910d.jpg">
