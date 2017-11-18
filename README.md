@@ -1,16 +1,18 @@
 # Pizzeria La Sicilia  ![favicon](https://images84.fotosik.pl/903/967be7e0d9ddbbfc.png)
-<p>Strona zrealizowana na zlecenie jednej z gdańskich pizzerii.<br>
-Projekt przygotowałem zaczynając od stworzenia projektu graficznego - <a href="https://www.behance.net/gallery/58871905/Pizzeria" target="_blank">Behance</a><br>
-Jako CMS wykorzystałem Keystone.js - <a href="https://github.com/mtrybus2208/keystone-boilerplate-webpack-bootstrap4" target="_blank">link do mojej konfiguracji.</a><br>
-Produkty, oraz ich kategorie są w pełni edytowalne z poziomu admina.</p>
 
-<p>Wykorzystane technologie:<br>
-<strong>Grafika:</strong> Photoshop,<br>
-<strong>Backend:</strong> Keystone.js (Node.js, express, mongoose),<br>
-<strong>Frontend:</strong> JS(ES6), Webpack 2, HTML5, CSS(Sass).</br>
+## Project created for pizzeria owner.
 
+## Page details:
 
+* I'm started project from design a template in Photoshop - <a href="https://www.behance.net/gallery/58871905/Pizzeria" target="_blank">Behance</a>
+* For CMS I used Keystone.js - <a href="https://github.com/mtrybus2208/keystone-boilerplate-webpack-bootstrap4" target="_blank">my boilerplate link</a>
+* Products and categories are fully editable from admin panel
+
+## List of technologies used in project:
+* <strong>Design:</strong> Photoshop
+* <strong>Backend:</strong> Keystone.js (Node.js, express, mongoose)
+* <strong>Frontend:</strong> JS(ES6), Webpack 2, HTML5, CSS(Sass)
+
+Temporary preview: <a href="https://la-sicilia-pizzeria.herokuapp.com/">la-sicilia-pizzeria.herokuapp.com</a>
 <p><strong>Online</strong> (strona niebawem zostanie przeniosiona na inna domene):
-<a href="https://la-sicilia-pizzeria.herokuapp.com/" target="_blank">la-sicilia-pizzeria.herokuapp.com</a></p>
-
 <img src="https://images82.fotosik.pl/904/2014279e1f6c910d.jpg">
