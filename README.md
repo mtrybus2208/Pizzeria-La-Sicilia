@@ -15,4 +15,5 @@
 
 
 <strong>Temporary preview:</strong> <a href="https://la-sicilia-pizzeria.herokuapp.com/">la-sicilia-pizzeria.herokuapp.com</a>
-<img src="https://images82.fotosik.pl/963/e781a51ef3f8aba0gen.jpg">
+
+<img src="https://images82.fotosik.pl/963/e781a51ef3f8aba0.jpg">
