@@ -1,4 +1,4 @@
-# Pizzeria La Sicilia  ![favicon](https://images84.fotosik.pl/903/967be7e0d9ddbbfc.png)
+# Pizzeria La Sicilia 
 
 ## Project created for pizzeria owner.
 
@@ -15,4 +15,4 @@
 
 
 <strong>Temporary preview:</strong> <a href="https://la-sicilia-pizzeria.herokuapp.com/">la-sicilia-pizzeria.herokuapp.com</a>
-<img src="https://images83.fotosik.pl/958/071cf20b175da722gen.jpg">
+<img src="https://images82.fotosik.pl/963/e781a51ef3f8aba0gen.jpg">
